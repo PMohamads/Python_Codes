@@ -1,0 +1,28 @@
+x = 4
+print(x, type(x))
+y = float(x)
+print(y, type(y))
+z = complex(y)
+print(z, type(z))
+q = str(z)
+print(q, type(q))
+w = int(9.55)
+print("w : ",w, type(w))
+e = float("3")
+print(e, type(e))
+y = str(76)
+print(y, type(y))
+p1 = bool(0)
+p2 = bool(15)
+p3 = bool([])
+p4 = bool(None)
+print(p1, type(p1))
+print(p2, type(p2))
+print(p3, type(p3))
+print(p4, type(p4))
+
+
+BYORUM = """Pythonda harflari Buyuk yada kucuk olmasina bir fark yoktur """
+print(BYORUM)
+print(type(BYORUM))
+print(BYORUM, len(BYORUM), BYORUM[18])
